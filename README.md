@@ -37,8 +37,10 @@ pre-configured Marlin firmware and a [simple dockerized firmware builder](firmwa
 * I had problems with the Z-axis (Z-axis often got stuck) until I mounted the
   Z-Axis nuts as shown here:
 
+<p float="left">
   <img alt="z nut" height=128 src=".images/z-nut.jpg">
   <img alt="z nut" height=128 src=".images/z-nut-bad.jpg">
+</p>
 
 ## Send Gcode to the printer
 
@@ -63,9 +65,11 @@ The printer is controlled by the so-called "3-in-one" printer box, which hosts a
 
 I updated the firmware to [marlin](https://marlinfw.org/) v1.1.9 with [manual bed levelling](https://marlinfw.org/docs/gcode/G029-mbl.html) enabled.
 
-<img alt="marlin 1.1.9 splash" height=128 src=".images/marlin_1_1_9_geeetech.jpg">
-<img alt="marlin menu" height=128 src=".images/lcd_menu_new_item_bed_level2.jpg">
-<img alt="marlin menu" height=128 src=".images/lcd_menu_new_item_bed_level.jpg">
+<p float="left">
+  <img alt="marlin 1.1.9 splash" height=128 src=".images/marlin_1_1_9_geeetech.jpg">
+  <img alt="marlin menu" height=128 src=".images/lcd_menu_new_item_bed_level2.jpg">
+  <img alt="marlin menu" height=128 src=".images/lcd_menu_new_item_bed_level.jpg">
+</p>
 
 The [firmware](firmware) directory contains my marlin configurations as well as
 infos on how to use my self-contained dockerized firmware builder.
@@ -116,8 +120,10 @@ extruder.
 I received my extruder from china without instructions. This is how I solved
 the puzzle:
 
-<img alt="extruder" height=128 src=".images/extruder0.jpg">
-<img alt="extruder" height=128 src=".images/extruder1.jpg">
+<p float="left">
+  <img alt="extruder" height=128 src=".images/extruder0.jpg">
+  <img alt="extruder" height=128 src=".images/extruder1.jpg">
+</p>
 
 I also had to replace some of the screws, because they were too long.
 
@@ -128,8 +134,10 @@ I also had to replace some of the screws, because they were too long.
 I used this mount to attach the bowden extruder to the aluminium frame of the
 I3A Pro: https://www.thingiverse.com/thing:3513863
 
-<img alt="extruder mount" height=128 src=".images/extruder_mount.jpg">
-<img alt="mounted extruder" height=128 src=".images/mounted_bowden_extruder.jpg">
+<p float="left">
+  <img alt="extruder mount" height=128 src=".images/extruder_mount.jpg">
+  <img alt="mounted extruder" height=128 src=".images/mounted_bowden_extruder.jpg">
+</p>
 
 I attached the mount to the left side of the printer.
 
@@ -144,12 +152,14 @@ The X-Carriage uses M3 screws while the E3Dv6 mount uses M4 screws, I ended
 up enlarging the drill holes of the X-Carriage to M4 size. I also needed to extend the
 Z-Axis end switch screw, which originally was to short for use with the new X-Carriage.
 
-<img alt="x-carriage" height=128 src=".images/x-carriage.jpg">
-<img alt="e3dv6 mount" height=128 src=".images/e3dv6_mount2.jpg">
-<img alt="partially assembled x-carriage" height=128 src=".images/partially_assembled_x-carriage.jpg">
-<img alt="assembled x-carriage" height=128 src=".images/assembled_x-carriage.jpg">
-<img alt="x-carriage mounted" height=128 src=".images/x-carriage-mounted.jpg">
-<img alt="z screw" height=128 src=".images/z-endstop-screw.jpg">
+<p float="left">
+  <img alt="x-carriage" height=128 src=".images/x-carriage.jpg">
+  <img alt="e3dv6 mount" height=128 src=".images/e3dv6_mount2.jpg">
+  <img alt="partially assembled x-carriage" height=128 src=".images/partially_assembled_x-carriage.jpg">
+  <img alt="assembled x-carriage" height=128 src=".images/assembled_x-carriage.jpg">
+  <img alt="x-carriage mounted" height=128 src=".images/x-carriage-mounted.jpg">
+  <img alt="z screw" height=128 src=".images/z-endstop-screw.jpg">
+</p>
 
 #### Nozzle cooling fan
 
