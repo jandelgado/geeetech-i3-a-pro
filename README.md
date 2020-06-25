@@ -20,6 +20,8 @@ pre-configured Marlin firmware and a [simple dockerized firmware builder](firmwa
         * [Extruder mount](#extruder-mount)
         * [Mount for E3Dv6 and new X-Carriage](#mount-for-e3dv6-and-new-x-carriage)
         * [Nozzle cooling fan](#nozzle-cooling-fan)
+        * [Cura settings for the E3Dv6 setup](#cura-settings-for-the-e3dv6-setup)
+    * [Filament spool roller](#filament-spool-roller)
 * [Evolution of calibration cubes](#evolution-of-calibration-cubes)
 * [What's next?](#whats-next)
 * [Useful links](#useful-links)
@@ -117,17 +119,13 @@ extruder.
 
 #### Extruder assembly
 
-I received my extruder from china without instructions. This is how I solved
-the puzzle:
+I again changed the extruder (22.06.2020) to this Redrex model. This time, it
+came with proper instructions and is overall of better quality than the old one. 
 
 <p float="left">
   <img alt="extruder" height=128 src=".images/extruder0.jpg">
   <img alt="extruder" height=128 src=".images/extruder1.jpg">
 </p>
-
-I also had to replace some of the screws, because they were too long.
-
-* Useful video here: https://www.youtube.com/watch?v=AAe7k_X7kQg
 
 #### Extruder mount
 
@@ -165,14 +163,24 @@ Z-Axis end switch screw, which originally was to short for use with the new X-Ca
 
 The new fan and duct used (https://www.thingiverse.com/thing:1632847) are so
 effective, that at 100% fan power, I always got "E1 Thermal runaway" errors.
-By limiting the fan power to 50% everything was fine.
+By limiting the fan power to 50% (in Cura) everything was fine.
 
-TODO connection
+The fan is connected to the `PWM FAN` connector (upper two pins).
 
 The fan can be tested using gcode commands:
 
 * Turn nozzle fan (`P0`) off: `M106 P0 S0`
 * Set nozzle fan to 50%: `M106 P0 S128`
+
+#### Cura settings for the E3Dv6 setup
+
+* Max fan speed 50%
+
+### Filament spool roller
+
+I replaced the original filament spool by this one: https://www.thingiverse.com/thing:2185015
+
+Let's see how it works (25.06.2020)
 
 ## Evolution of calibration cubes
 
